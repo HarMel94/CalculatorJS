@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="calcbody">
+            <h1>Calculator</h1>
+            <div class="calcInput">
+                <p>
+                    <input type="text" class="numbers" readonly>
+                </p>
+                <p>
+                    <input type="text" class="result" readonly>
+                </p>
+            </div>
+
+            <p class="numbers">
+                <button onclick='numbfunc("1")'>1</button>
+                <button onclick='numbfunc("2")'>2</button>
+                <button onclick='numbfunc("3")'>3</button>
+                <button onclick='numbfunc("4")'>4</button>
+                <button onclick='numbfunc("5")'>5</button>
+                <button onclick='numbfunc("6")'>6</button>
+                <button onclick='numbfunc("7")'>7</button>
+                <button onclick='numbfunc("8")'>8</button>
+                <button onclick='numbfunc("9")'>9</button>
+                <button onclick='numbfunc("0")'>0</button>
+            </p>
+
+            <p class="btns">
+                <button onclick='numbfunc("+")'>+</button>
+                <button onclick='numbfunc("-")'>-</button>
+                <button onclick='numbfunc("*")'>*</button>
+                <button onclick='numbfunc("/")'>/</button>
+                <button onclick='equalfunc("=")'>=</button>
+                <button onclick='clean("c")'>c</button>
+            </p>
+
+        </div>  
+    </div>
+
+    <script src="Calculator.js"></script>
+
+</body>
+</html>
