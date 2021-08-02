@@ -9,7 +9,6 @@ function numbfunc(e) {
 
 function equalfunc(e) {
     res.value += eval(numb.value);
-    numb.value += eval(numb.value);
     numb.value = "";
 };
 
